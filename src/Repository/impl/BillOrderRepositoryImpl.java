@@ -5,9 +5,9 @@ import repository.BillOrderRepository;
 
 import java.util.List;
 
-public class BillRepositoryImpl implements BillOrderRepository {
+public class BillOrderRepositoryImpl implements BillOrderRepository {
     private static final String CSV_SEPARATOR = ",";
-    private static final String FILE_HEADER = "ID,ORDER_TIME,STATUS";
+    private static final String FILE_HEADER = "ID,MENU_ID,BILL_ID,MENU_PRICE,QUANTITY";
     @Override
     public List<BillOrder> findAll() {
         return null;
