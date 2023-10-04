@@ -1,0 +1,8 @@
+ID,NAME,PARENT_ID
+1,Food,0
+2,Drink,0
+3,Breakfast,1
+4,Lunch,1
+5,Dinner,1
+6,Alcohol,2
+7,Soft,2

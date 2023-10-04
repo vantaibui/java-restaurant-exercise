@@ -1,0 +1,16 @@
+ID,NAME,DESCRIPTION,PRICE,IMAGE,PARENT_ID,IS_DELETED
+1,Breakfast_1,Breakfast,10000,image,3,0
+2,Breakfast_2,Breakfast,85000,image,3,0
+3,Breakfast_3,Breakfast,92000,image,3,0
+4,Lunch_4,Lunch,10000,image,4,0
+5,Lunch_5,Lunch,85000,image,4,0
+6,Lunch_6,Lunch,92000,image,4,0
+7,Dinner_7,Dinner,10000,image,5,0
+8,Dinner_8,Dinner,10000,image,5,0
+9,Dinner_9,Dinner,85000,image,5,0
+10,Alcohol_10,Alcohol,92000,image,6,1
+11,Alcohol_11,Alcohol,10000,image,6,0
+12,Alcohol_12,Alcohol,85000,image,6,0
+13,Soft_13,Soft,64000,image,7,0
+14,Soft_14,Soft,92000,image,7,0
+15,Soft_15,Soft,55000,image,7,0
