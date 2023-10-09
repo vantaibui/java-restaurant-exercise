@@ -4,7 +4,7 @@ public class BillOrder {
     private int id;
     private int menuId;
     private int billId;
-    private double menuPrice;
+    private double unitPrice;
     private int quantity;
 
     public int getId() {
@@ -31,12 +31,12 @@ public class BillOrder {
         this.billId = billId;
     }
 
-    public double getMenuPrice() {
-        return menuPrice;
+    public double getUnitPrice() {
+        return unitPrice;
     }
 
-    public void setMenuPrice(double menuPrice) {
-        this.menuPrice = menuPrice;
+    public void setUnitPrice(double unitPrice) {
+        this.unitPrice = unitPrice;
     }
 
     public int getQuantity() {

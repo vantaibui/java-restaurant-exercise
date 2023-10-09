@@ -5,7 +5,7 @@ import java.util.Date;
 public class Bill {
     private int id;
     private Date orderTime;
-    private String status;
+    private boolean status;
 
     public int getId() {
         return id;
@@ -23,11 +23,11 @@ public class Bill {
         this.orderTime = orderTime;
     }
 
-    public String getStatus() {
+    public boolean isStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(boolean status) {
         this.status = status;
     }
 }
