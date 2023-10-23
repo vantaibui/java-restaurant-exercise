@@ -8,7 +8,7 @@ public class Menu implements Serializable, Comparable<Menu> {
     private String description;
     private double price;
     private String image;
-    private int parentId;
+    private int categoryId;
     private boolean isDeleted;
 
     public Integer getId() {
@@ -51,12 +51,12 @@ public class Menu implements Serializable, Comparable<Menu> {
         this.image = image;
     }
 
-    public int getParentId() {
-        return parentId;
+    public int getCategoryId() {
+        return categoryId;
     }
 
-    public void setParentId(int parentId) {
-        this.parentId = parentId;
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
     }
 
     public boolean isDeleted() {
